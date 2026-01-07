@@ -1,8 +1,25 @@
+:root{
+  --bg-color: #1e1e2f;
+  --text-color: #cdd6f4;
+  --color-primary: #090B15;
+  --secondary-color: #f38ba8;
+  --accent-color: #a6e3a1;
+  --border-color: #313244;
+}
+
+
+body{
+  font-family: 'Figtree', sans-serif;
+}
+
+
+.pricing-card-shadow {
+box-shadow: 0 8.91px 14.3px #00000040, inset 7px 4px 26px #ffffff17;}
+
+
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
 }
 
 .logo {
@@ -40,3 +57,4 @@
 .read-the-docs {
   color: #888;
 }
+
