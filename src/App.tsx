@@ -4,7 +4,6 @@ import LoginPage from "@/pages/LoginPage.tsx";
 import HomePage from "@/pages/HomePage.tsx";
 import AccountPage from "@/pages/AccountPage.tsx";
 
-import Navbar from "@/components/Navbar";
 import PrivateRoute from "@/components/PrivateRoute.tsx";
 import {AuthProvider} from "@/lib/auth-util.tsx";
 
@@ -15,7 +14,6 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/" element={<HomePage />} />
